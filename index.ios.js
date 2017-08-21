@@ -17,9 +17,6 @@ export default class ReactNativeMapsExample extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
         <MapView
         style={styles.map}
         initialRegion={{
@@ -43,7 +40,7 @@ const styles = StyleSheet.create({
   },
   map: {
     width: '100%',
-    height: 300,
+    height: '100%',
   },
 });
 
